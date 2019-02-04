@@ -16,7 +16,7 @@ public class ArrayDuplicatesV1 {
         System.out.println("The input array has duplicates: " + hasDuplicates(arr));
     }
 
-    private static boolean hasDuplicates(int[] arr) {
+    private static boolean hasDuplicates(int[] arr) { // O(n), O(1) where n is the length of array
         if(arr == null || arr.length < 2)
             return false;
 
