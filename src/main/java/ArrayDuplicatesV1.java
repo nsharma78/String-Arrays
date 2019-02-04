@@ -27,6 +27,7 @@ public class ArrayDuplicatesV1 {
 
             if (value >= len)
                 throw new RuntimeException("Invalid input");
+            
             if(arr[value] < 0)
                 return true;
             arr[value] = -arr[value];
