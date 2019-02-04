@@ -25,7 +25,7 @@ public class Ancestors {
         System.out.println("Elements with no parent: " + result.get(1).toString());
     }
 
-    private static List<List<Integer>> ancestors(int[][] arr){
+    private static List<List<Integer>> ancestors(int[][] arr){ // O(n), O(n) where n is the number of pairs
         if(arr == null ||arr.length == 0)
             return Collections.emptyList();
 
