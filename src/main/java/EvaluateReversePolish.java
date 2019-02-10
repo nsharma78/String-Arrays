@@ -18,7 +18,7 @@ public class EvaluateReversePolish {
         System.out.println("The result of the expression is " +  evalReversePolish(arr));
     }
 
-    private static String evalReversePolish(String[] arr) {
+    private static String evalReversePolish(String[] arr) { // O(n) O(n) where n is the array length
 
         if (arr == null || arr.length < 3)
             return null;
