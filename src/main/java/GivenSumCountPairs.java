@@ -19,7 +19,7 @@ public class GivenSumCountPairs {
 
     }
 
-    private static int getPairsCount(int[] arr, int n, int sum) {
+    private static int getPairsCount(int[] arr, int n, int sum) { // O(n) O(n)
         Map<Integer, Integer> hm = new HashMap<>();
 
         // Store counts of all elements in map hm
