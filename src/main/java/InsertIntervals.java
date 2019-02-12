@@ -25,7 +25,7 @@ public class InsertIntervals {
         System.out.print("The intervals after mergeInsert: " + mergedList.toString().toString());
     }
 
-    private static List<Interval>  mergeInsertIntervals(List<Interval> list, Interval toInsert) {
+    private static List<Interval>  mergeInsertIntervals(List<Interval> list, Interval toInsert) { // O(n) O(n) where n is the length or interval list
         if(list == null || list.isEmpty())
             return Collections.emptyList();
 
