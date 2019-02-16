@@ -16,7 +16,7 @@ public class MakeLargestPossibleNumber {
         System.out.println("The largest number made from the array is: " + largestNumber(arr));
     }
 
-    private static String largestNumber(int[] arr) {
+    private static String largestNumber(int[] arr) { // O(nlogn) O(n)
         if (arr == null || arr.length == 0)
             return null;
 
