@@ -8,7 +8,7 @@
 
 package main.java;
 
-public class ShortestWordDisctanceV1 {
+public class ShortestWordDistanceV1 {
     public static void main(String[] args) {
         String[] arr = {"practice", "makes", "perfect", "coding", "makes"};
         String word1 = "makes";
